@@ -6,6 +6,9 @@
 #include "myClass.h"
 using namespace std;
 
+int fsum(int a, int b) {
+    return a + b;
+}
 
 int main(int argc, char* argv[])
 {
@@ -14,6 +17,8 @@ int main(int argc, char* argv[])
     myClass a1(" elham");
     myClass a2(" aghabarari");
     myClass a3;
+
+
     a3 += a1;
     a3 += a2;
 
